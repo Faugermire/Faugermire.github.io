@@ -1,0 +1,104 @@
+#banner {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  width: 100%;
+  height: 200px;
+  z-index: -1;
+  background-image: url("res/images/banner2.jpg");
+  background-repeat: repeat-x;
+}
+
+body {
+    font-family: Georgia, serif;
+    font-size: 100%;
+    color: #24305E;
+    line-height: 175%;
+    margin: 0 15% 0;
+    background: #A8D0E6;
+}
+#header {
+    padding: 1em 1em 1em 1em;
+    text-align: center;
+}
+
+a {
+    /*text-decoration: underline dotted white;*/
+}
+
+a:link {
+    color: #FFF;
+}
+
+a:visited {
+    color: #FFF;
+}
+
+a:hover {
+    color: #A8D0E6;
+    text-shadow: .1em .1em .2em gray;
+}
+
+a:active {
+    color: #223;
+    background-color: #fff;
+}
+
+h1 {
+    font: bold 2em Georgia, serif;
+    text-align: center;
+    text-shadow: .1em .1em .2em gray;
+    color: #24305E;
+    /*background-color: #F76C6C;*/
+}
+h2 {
+    font-size: 1em;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    padding: 2em 1em 1em 1em;
+    text-align: center;
+    color: #24305E;
+}
+dt {
+    font-weight: bold;
+}
+strong {
+    font-style: italic;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+#info p {
+    font-style: italic;
+}
+.price {
+    font-family: Georgia, serif;
+    font-style: italic;
+}
+p.warning, sup {
+    font-size: small;
+}
+.label {
+    font-weight: bold;
+    font-variant: small-caps;
+    font-style: normal;
+}
+
+table {
+    border: 1px solid black;
+    align = center;
+    background-color: #24305E;
+}
+
+td, th {
+    border: 1px solid #CCC;
+    text-align: center;
+    padding: 0em 5em 0em 0em;
+}
+
+p {
+    background-color: #A8D0E6
+}
